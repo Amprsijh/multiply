@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+class multiply{
+private:
+int a,b;
+public:
+void mul(int a,int  b){
+cout<<"The multiplication of numbers is "<<(a*b)<<"\n";
+}};
+int main(){
+int x,y;
+cout<<"Enter two numbers\n";
+cin>>x>>y;
+multiply ad;
+ad.mul(x,y);
+return 0;
+}
