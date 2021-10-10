@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+class calculater{
+    public:
+    int a,b;
+    void add(){
+        cout<<(a+b);
+    }
+    void sub(){
+        cout<<(a-b);
+    }
+    void mul(){
+        cout<<(a*b);
+    }
+    void div(){
+        cout<<(a/b);
+    }
+    void input(){
+        cout<<"Enter two numbers\n";
+        cin>>a>>b;
+    }
+};
+int main(){
+    calculater c;
+    c.input();
+    char d;
+    cout<<"\t+";
+    cout<<"\t-";
+    cout<<"\t*";
+    cout<<"\t/";
+    cin>>d;
+    switch(d){
+        case '+':
+        c.add();
+        break;
+        case '-':
+        c.sub();
+        break;
+        case '*':
+        c.mul();
+        break;
+        case '/':
+        c.div();
+        break;
+        default:
+        cout<<"No match to your selection\n";
+        break;
+    }
+    return 0;
+}
