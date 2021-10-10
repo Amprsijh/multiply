@@ -1,0 +1,12 @@
+#include<iostream>
+class print{
+public:
+void out(){
+cout<<"Hello\n";
+}};
+using namespace std;
+int main(){
+print p;
+p.out():
+return 0;
+}
