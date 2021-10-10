@@ -1,0 +1,20 @@
+#include<iostream>
+using naemspace std;
+int main(){
+int a,b,c,d;
+cout<<"Enter rows and column\n";
+cin>>a>>b;
+cout<<"Enter elements\n";
+for(c=0;c<a;c++){
+for(d=0;d<b;d++){
+cin>>ar[c][d];
+}}
+cout<<"The matrix is \n";
+for(c=0;c<a;c++){
+for(d=0;d<b;d++){
+cout<<""<<ar[c][d]<<"\t";
+}
+cout<<"\n";
+}
+return 0;
+}
